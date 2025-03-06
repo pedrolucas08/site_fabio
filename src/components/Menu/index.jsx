@@ -19,7 +19,7 @@ const Menu = () => {
   }, []);
 
   return (
-    <header className="relative flex justify-between items-center h-20 bg-black">
+    <header className="sticky top-0 flex justify-between items-center h-20 bg-black z-100">
       <a href="index.html">
         <img
           src={`${LogoAmr}`}

@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <Menu />
 
-      <div className="relative bg-black h-80 sm:h-96 lg:h-124">
+      <div id="home" className="relative bg-black h-80 sm:h-96 lg:h-124">
         <img
           src={`${imagemHome}`}
           alt="Imagem de fundo da tela inicial"

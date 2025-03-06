@@ -4,7 +4,7 @@ import EmailIcon from "@mui/icons-material/Email";
 
 const Contact = () => {
   return (
-    <section className="mt-12">
+    <section id="contact" className="mt-12">
       <div className="bg-black text-white px-6 py-12 opacity-80">
         <h2 className="text-2xl font-extrabold">ENTRE EM CONTATO</h2>
         <p className="mt-4 text-sm">
