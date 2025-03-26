@@ -4,8 +4,10 @@
   --color-redf: #ef3035;
   --color-redfT: #ef3036ca;
   --color-blackT: #00000099;
+  --color-cinza: #ddd;
   --animate-animationAmr: animationAmr 1.5s ease-in-out;
   --animate-animationText: animationText 1.5s ease-in-out;
+  --breakpoint-sx: 375px;
   --breakpoint-smlst: 500px;
   --breakpoint-midsm: 706px;
   --breakpoint-midlg: 890px;

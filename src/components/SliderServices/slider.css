@@ -1,0 +1,38 @@
+.splide__arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  background-color: #00000095;
+  border-radius: 50%;
+}
+
+.splide__arrow--prev {
+  left: 10px;
+}
+
+.splide__arrow--next {
+  right: 10px;
+}
+
+.splide__arrow--prev svg,
+.splide__arrow--next svg {
+  fill: #fff;
+  width: 15px;
+  height: 15px;
+}
+
+.splide__pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.splide__pagination__page.is-active {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}

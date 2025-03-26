@@ -20,7 +20,7 @@ const Menu = () => {
 
   return (
     <header className="sticky top-0 flex justify-between items-center h-20 bg-black z-100">
-      <a href="index.html">
+      <a href="index.html" className="z-100">
         <img
           src={`${LogoAmr}`}
           alt=""
