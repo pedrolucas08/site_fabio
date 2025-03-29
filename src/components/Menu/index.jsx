@@ -48,28 +48,56 @@ const Menu = () => {
         <ul
           className={`absolute flex flex-col bg-redf items-center ${menuHeight} justify-evenly duration-300 left-0 top-20 right-0 z-20 md:flex-row md:h-20 md:bg-transparent md:top-0 2xl:top-1/2 2xl:-translate-y-1/2`}
         >
-          <a href="#home" className="w-48 text-center 2xl:w-80">
+          <a
+            href="#home"
+            className="w-48 text-center 2xl:w-80"
+            onClick={() => {
+              setMenuHeight("h-0");
+              setDisplay("hidden");
+            }}
+          >
             <li
               className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base 2xl:text-3xl`}
             >
               INÍCIO
             </li>
           </a>
-          <a href="#services" className="w-48 text-center 2xl:w-80">
+          <a
+            href="#services"
+            className="w-48 text-center 2xl:w-80"
+            onClick={() => {
+              setMenuHeight("h-0");
+              setDisplay("hidden");
+            }}
+          >
             <li
               className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base md:mr-20 2xl:text-3xl 2xl:mr-40`}
             >
               SERVIÇOS
             </li>
           </a>
-          <a href="#about-me" className="w-48 text-center 2xl:w-80">
+          <a
+            href="#about-me"
+            className="w-48 text-center 2xl:w-80"
+            onClick={() => {
+              setMenuHeight("h-0");
+              setDisplay("hidden");
+            }}
+          >
             <li
               className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base md:ml-20 2xl:text-3xl 2xl:ml-40`}
             >
               SOBRE MIM
             </li>
           </a>
-          <a href="#contact" className="w-48 text-center 2xl:w-80">
+          <a
+            href="#contact"
+            className="w-48 text-center 2xl:w-80"
+            onClick={() => {
+              setMenuHeight("h-0");
+              setDisplay("hidden");
+            }}
+          >
             <li
               className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base 2xl:text-3xl`}
             >

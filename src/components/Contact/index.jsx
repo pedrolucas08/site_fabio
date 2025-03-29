@@ -39,7 +39,7 @@ const Contact = () => {
           <PhoneEnabledIcon className="contact-icons" />
           <h3 className="text-2xl mb-2 2xl:text-4xl">TELEFONE</h3>
           <a
-            href="tel:+5562999144771"
+            href="tel:62999144771"
             className="hover:text-redf underline 2xl:text-xl"
           >
             +55 (62) 9 9914-4771
@@ -49,7 +49,7 @@ const Contact = () => {
           <LocationOnIcon className="contact-icons" />
           <h3 className="text-2xl mb-2 2xl:text-4xl">ENDEREÇO</h3>
           <a
-            href="https://www.google.com/maps/search/?q=AMR+SERVICOS+E+EMPREENDIMENTOS+LTDA+São+Domingos+-+GO,+73860-000"
+            href="https://www.google.com/maps?q=AMR+SERVICOS+E+EMPREENDIMENTOS+LTDA,+São+Domingos+-+GO,+73860-000"
             target="_blank"
             className="hover:text-redf text-center underline 2xl:text-xl"
           >
