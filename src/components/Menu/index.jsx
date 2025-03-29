@@ -19,14 +19,17 @@ const Menu = () => {
   }, []);
 
   return (
-    <header className="sticky top-0 flex justify-between items-center h-20 bg-black z-100">
-      <a href="index.html" className="z-100">
+    <header className="fixed top-0 left-0 right-0 flex justify-between items-center h-20 bg-black z-100 2xl:h-48">
+      <a href="index.html" className="">
+        <div className="absolute translate-[-50%] top-[50%] left-[50%] h-20 w-50 overflow-x-hidden">
+          <div className="absolute bg-radial from-transparent to-redf to-99% shadow-logo shadow-redf translate-[-50%] top-[50%] left-[50%] w-32 h-30 rounded-full"></div>
+        </div>
         <img
           src={`${LogoAmr}`}
           alt=""
-          className="absolute h-10 animate-animationAmr translate-[-50%] top-[50%] left-[50%]"
+          className="absolute h-10 animate-animationAmr translate-[-50%] top-[50%] left-[50%] shadow-redf 2xl:h-20"
         />
-        <span className="text-[6px] absolute animate-animationText translate-[-50%] top-[85%] left-[50%] text-white">
+        <span className="text-[6px] absolute animate-animationText translate-[-50%] top-[85%] left-[50%] text-white 2xl:text-[0.8rem]">
           SERVIÇOS E EMPREENDIMENTOS LTDA
         </span>
       </a>
@@ -43,32 +46,32 @@ const Menu = () => {
           />
         )}
         <ul
-          className={`absolute flex flex-col bg-redf items-center ${menuHeight} justify-evenly duration-300 left-0 top-20 right-0 z-20 md:flex-row md:h-20 md:bg-transparent md:top-0`}
+          className={`absolute flex flex-col bg-redf items-center ${menuHeight} justify-evenly duration-300 left-0 top-20 right-0 z-20 md:flex-row md:h-20 md:bg-transparent md:top-0 2xl:top-1/2 2xl:-translate-y-1/2`}
         >
-          <a href="#home" className="w-48 text-center">
+          <a href="#home" className="w-48 text-center 2xl:w-80">
             <li
-              className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base`}
+              className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base 2xl:text-3xl`}
             >
               INÍCIO
             </li>
           </a>
-          <a href="#services" className="w-48 text-center">
+          <a href="#services" className="w-48 text-center 2xl:w-80">
             <li
-              className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base md:mr-20`}
+              className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base md:mr-20 2xl:text-3xl 2xl:mr-40`}
             >
               SERVIÇOS
             </li>
           </a>
-          <a href="#about-me" className="w-48 text-center">
+          <a href="#about-me" className="w-48 text-center 2xl:w-80">
             <li
-              className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base md:ml-20`}
+              className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base md:ml-20 2xl:text-3xl 2xl:ml-40`}
             >
               SOBRE MIM
             </li>
           </a>
-          <a href="#contact" className="w-48 text-center">
+          <a href="#contact" className="w-48 text-center 2xl:w-80">
             <li
-              className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base`}
+              className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base 2xl:text-3xl`}
             >
               CONTATO
             </li>

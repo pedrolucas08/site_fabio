@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import image from "../../assets/images/Services/trator-rocando.jpg";
 import SliderServices from "../SliderServices";
 import "../SliderServices/slider.css";
 import ScrollReveal from "scrollreveal";
@@ -44,25 +43,25 @@ const Services = () => {
   return (
     <>
       <div id="services">
-        <h2 className="services-title text-2xl text-center mt-12 mb-4 font-bold sm:text-3xl">
+        <h2 className="services-title text-2xl text-center mt-12 mb-4 font-bold sm:text-3xl 2xl:text-5xl">
           Serviços que Oferecemos
         </h2>
-        <p className="services-subtitle text-center text-gray-600 mb-8 text-sm sm:text-base">
+        <p className="services-subtitle text-center text-gray-600 mb-8 text-sm sm:text-base 2xl:text-3xl">
           Oferecemos soluções eficientes e de qualidade para atender suas
           necessidades com profissionalismo e responsabilidade.
         </p>
         <div className="flex flex-wrap justify-center gap-6 p-6">
-          <div className="services1 flex flex-col w-72 h-112 rounded-md shadow-xl">
+          <div className="services1 flex flex-col w-72 h-112 rounded-md shadow-xl 2xl:w-96 2xl:h-148">
             <img
               src={`${reflorestamento0}`}
               alt="Service"
-              className="w-full h-40 object-cover rounded-t-md"
+              className="w-full h-48 object-cover rounded-t-md 2xl:h-74"
             />
             <div className="p-4 flex flex-col items-center">
-              <h3 className="text-center text-xl font-semibold mb-2">
+              <h3 className="text-center text-xl font-semibold mb-2 2xl:text-2xl">
                 Reflorestamento
               </h3>
-              <p className="text-gray-600 mb-4 text-center">
+              <p className="text-gray-600 mb-4 text-center 2xl:text-xl">
                 Plantio de novas árvores para recuperar áreas degradadas,
                 melhorar o solo e contribuir para um meio ambiente mais
                 sustentável.
@@ -79,17 +78,17 @@ const Services = () => {
               </button>
             </div>
           </div>
-          <div className="services1 flex flex-col w-72 h-112 rounded-md shadow-xl">
+          <div className="services1 flex flex-col w-72 h-112 rounded-md shadow-xl 2xl:w-96 2xl:h-148">
             <img
               src={`${servidao0}`}
               alt="Service"
-              className="w-full h-40 object-cover rounded-t-md"
+              className="w-full h-48 object-cover rounded-t-md 2xl:h-74"
             />
             <div className="p-4 flex flex-col items-center">
-              <h3 className="text-center text-xl font-semibold mb-2">
+              <h3 className="text-center text-xl font-semibold mb-2 2xl:text-2xl">
                 Limpeza de Faixa de Servidão
               </h3>
-              <p className="text-gray-600 mb-4 text-center">
+              <p className="text-gray-600 mb-4 text-center 2xl:text-xl">
                 Roçagem das áreas sob linhas de transmissão de 134 kVA,
                 garantindo segurança, acessibilidade e prevenção de
                 interferências na rede elétrica.
@@ -106,17 +105,17 @@ const Services = () => {
               </button>
             </div>
           </div>
-          <div className="services2 flex flex-col w-72 h-112 rounded-md shadow-xl">
+          <div className="services2 flex flex-col w-72 h-112 rounded-md shadow-xl 2xl:w-96 2xl:h-148">
             <img
               src={`${construcao0}`}
               alt="Service"
-              className="w-full h-40 object-cover rounded-t-md"
+              className="w-full h-48 object-cover rounded-t-md 2xl:h-74"
             />
             <div className="p-4 flex flex-col items-center">
-              <h3 className="text-center text-xl font-semibold mb-2">
+              <h3 className="text-center text-xl font-semibold mb-2 2xl:text-2xl">
                 Construção Civil
               </h3>
-              <p className="text-gray-600 mb-4 text-center">
+              <p className="text-gray-600 mb-4 text-center 2xl:text-xl">
                 Construção de pontes, casas e outras estruturas com materiais de
                 qualidade e mão de obra especializada, garantindo segurança e
                 durabilidade.
@@ -133,17 +132,17 @@ const Services = () => {
               </button>
             </div>
           </div>
-          <div className="services3 flex flex-col w-72 h-112 rounded-md shadow-xl">
+          <div className="services3 flex flex-col w-72 h-112 rounded-md shadow-xl 2xl:w-96 2xl:h-148">
             <img
               src={`${talude0}`}
               alt="Service"
-              className="w-full h-40 object-cover rounded-t-md"
+              className="w-full h-48 object-cover rounded-t-md 2xl:h-74"
             />
             <div className="p-4 flex flex-col items-center">
-              <h3 className="text-center text-xl font-semibold mb-2">
+              <h3 className="text-center text-xl font-semibold mb-2 2xl:text-2xl">
                 Roçagem de Taludes e Barragens
               </h3>
-              <p className="text-gray-600 mb-4 text-center">
+              <p className="text-gray-600 mb-4 text-center 2xl:text-xl">
                 Manutenção eficiente de taludes e barragens, garantindo limpeza,
                 prevenção de erosão e conservação do solo com segurança e
                 qualidade.
@@ -160,11 +159,11 @@ const Services = () => {
               </button>
             </div>
           </div>
-          <div className="services4 flex flex-col w-72 h-112 rounded-md shadow-xl">
+          {/* <div className="services4 flex flex-col w-72 h-112 rounded-md shadow-xl">
             <img
               src={`${image}`}
               alt="Service"
-              className="w-full h-40 object-cover rounded-t-md"
+              className="w-full h-48 object-cover rounded-t-md"
             />
             <div className="p-4 flex flex-col items-center">
               <h3 className="text-center text-xl font-semibold mb-2">
@@ -185,7 +184,7 @@ const Services = () => {
                 VER MAIS DETALHES
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <SliderServices

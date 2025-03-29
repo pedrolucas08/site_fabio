@@ -3,6 +3,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
+import "./contact.css";
 
 const Contact = () => {
   useEffect(() => {
@@ -24,33 +25,45 @@ const Contact = () => {
   return (
     <section id="contact" className="mt-12">
       <div className="bg-black text-white px-6 py-12 opacity-80">
-        <h2 className="contact0 text-2xl font-extrabold">ENTRE EM CONTATO</h2>
-        <p className="contact1 mt-4 text-sm">
+        <h2 className="contact0 text-2xl font-extrabold 2xl:text-3xl">
+          ENTRE EM CONTATO
+        </h2>
+        <p className="contact1 mt-4 text-sm 2xl:text-xl">
           Entre em contato conosco para tirar dúvidas, fazer sugestões ou
           solicitar um orçamento.
         </p>
       </div>
 
       <div className="flex flex-col items-center py-12 gap-8">
-        <div className="card0 flex flex-col items-center w-[95%] border-2 border-gray-200 py-8 px-16 rounded-lg hover:shadow-lg hover:-translate-y-1 duration-300 max-w-144">
-          <PhoneEnabledIcon />
-          <h3 className="text-2xl mb-2">TELEFONE</h3>
-          <a href="" className="hover:text-redf underline">
-            (99) 9 9999-9999
+        <div className="card0 flex flex-col items-center w-[95%] border-2 border-gray-200 py-8 px-16 rounded-lg hover:shadow-lg hover:-translate-y-1 duration-300 max-w-144 2xl:max-w-180">
+          <PhoneEnabledIcon className="contact-icons" />
+          <h3 className="text-2xl mb-2 2xl:text-4xl">TELEFONE</h3>
+          <a
+            href="tel:+5562999144771"
+            className="hover:text-redf underline 2xl:text-xl"
+          >
+            +55 (62) 9 9914-4771
           </a>
         </div>
-        <div className="card1 flex flex-col items-center w-[95%] border-2 border-gray-200 py-8 px-16 rounded-lg hover:shadow-lg hover:-translate-y-1 duration-300 max-w-144">
-          <LocationOnIcon />
-          <h3 className="text-2xl mb-2">ENDEREÇO</h3>
-          <a href="" className="hover:text-redf text-center underline">
-            Rua tal, Quadra 93, Lote 29, Nº 24, Setor tal, São Domingos - GO
+        <div className="card1 flex flex-col items-center w-[95%] border-2 border-gray-200 py-8 px-16 rounded-lg hover:shadow-lg hover:-translate-y-1 duration-300 max-w-144 2xl:max-w-180">
+          <LocationOnIcon className="contact-icons" />
+          <h3 className="text-2xl mb-2 2xl:text-4xl">ENDEREÇO</h3>
+          <a
+            href="https://www.google.com/maps/search/?q=AMR+SERVICOS+E+EMPREENDIMENTOS+LTDA+São+Domingos+-+GO,+73860-000"
+            target="_blank"
+            className="hover:text-redf text-center underline 2xl:text-xl"
+          >
+            Av. Pres. Vargas, São Domingos - GO, 73860-000
           </a>
         </div>
-        <div className="card2 flex flex-col items-center w-[95%] border-2 border-gray-200 py-8 px-16 rounded-lg hover:shadow-lg hover:-translate-y-1 duration-300 max-w-144">
-          <EmailIcon />
-          <h3 className="text-2xl mb-2">EMAIL</h3>
-          <a href="" className="hover:text-redf underline">
-            teste@gmail.com
+        <div className="card2 flex flex-col items-center w-[95%] border-2 border-gray-200 py-8 px-16 rounded-lg hover:shadow-lg hover:-translate-y-1 duration-300 max-w-144 2xl:max-w-180">
+          <EmailIcon className="contact-icons" />
+          <h3 className="text-2xl mb-2 2xl:text-4xl">EMAIL</h3>
+          <a
+            href="mailto:amr.emp.servicos@gmail.com"
+            className="hover:text-redf underline 2xl:text-xl"
+          >
+            amr.emp.servicos@gmail.com
           </a>
         </div>
       </div>

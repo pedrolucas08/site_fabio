@@ -7,11 +7,13 @@
   --color-cinza: #ddd;
   --animate-animationAmr: animationAmr 1.5s ease-in-out;
   --animate-animationText: animationText 1.5s ease-in-out;
+  --shadow-logo: 0 0 40px 10px #ef3035;
   --breakpoint-sx: 375px;
   --breakpoint-smlst: 500px;
   --breakpoint-midsm: 706px;
   --breakpoint-midlg: 890px;
   --breakpoint-mlg: 1100px;
+  --breakpoint-3xl: 1920px;
 
   @keyframes animationAmr {
     0% {

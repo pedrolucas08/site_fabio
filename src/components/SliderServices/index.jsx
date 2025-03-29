@@ -10,8 +10,6 @@ import reflorestamento4 from "../../assets/reflorestamento/image4.jpg";
 import reflorestamento5 from "../../assets/reflorestamento/image5.jpg";
 import reflorestamento6 from "../../assets/reflorestamento/image6.jpg";
 import reflorestamento7 from "../../assets/reflorestamento/image7.jpg";
-import reflorestamento8 from "../../assets/reflorestamento/image8.jpg";
-import servidao1 from "../../assets/faixa-servidao/image1.jpg";
 import servidao2 from "../../assets/faixa-servidao/image2.jpg";
 import servidao3 from "../../assets/faixa-servidao/image3.jpg";
 import servidao4 from "../../assets/faixa-servidao/image4.jpg";
@@ -25,11 +23,7 @@ import servidao11 from "../../assets/faixa-servidao/image11.jpg";
 import servidao12 from "../../assets/faixa-servidao/image12.jpg";
 import construcao1 from "../../assets/construcao/image1.jpg";
 import construcao2 from "../../assets/construcao/image2.jpg";
-import construcao3 from "../../assets/construcao/image3.jpg";
 import construcao4 from "../../assets/construcao/image4.jpg";
-import construcao5 from "../../assets/construcao/image5.jpg";
-import construcao6 from "../../assets/construcao/image6.jpg";
-import construcao7 from "../../assets/construcao/image7.jpg";
 
 const SliderServices = ({ card, scale, setScale, descricaoEscolhida }) => {
   const images = [
@@ -41,10 +35,8 @@ const SliderServices = ({ card, scale, setScale, descricaoEscolhida }) => {
       reflorestamento5,
       reflorestamento6,
       reflorestamento7,
-      reflorestamento8,
     ],
     [
-      servidao1,
       servidao2,
       servidao3,
       servidao4,
@@ -57,17 +49,9 @@ const SliderServices = ({ card, scale, setScale, descricaoEscolhida }) => {
       servidao11,
       servidao12,
     ],
-    [
-      construcao1,
-      construcao2,
-      construcao3,
-      construcao4,
-      construcao5,
-      construcao6,
-      construcao7,
-    ],
+    [construcao1, construcao2, construcao4],
     [talude0],
-    [construcao4, construcao5, construcao6, construcao7],
+    // [limpezaUrbana],
   ];
 
   const descriptions = {
@@ -89,7 +73,7 @@ const SliderServices = ({ card, scale, setScale, descricaoEscolhida }) => {
     <div
       className={`flex items-center justify-center fixed top-0 bg-blackT bottom-0 w-screen z-1000 py-12 px-2 scale-0 ${scale} duration-500 smlst:py-2`}
     >
-      <div className="w-screen h-full bg-cinza rounded-xl overflow-auto max-w-[600px]">
+      <div className="w-screen h-full bg-cinza rounded-xl overflow-auto max-w-150 2xl:max-w-262">
         <div className="relative">
           <Splide
             options={{
@@ -102,7 +86,7 @@ const SliderServices = ({ card, scale, setScale, descricaoEscolhida }) => {
             aria-label="Fabio images"
           >
             {images[card].map((image, index) => (
-              <SplideSlide key={index} className={"h-96"}>
+              <SplideSlide key={index} className={"h-96 2xl:h-166"}>
                 <img
                   className="w-full h-full object-cover rounded-t-xl"
                   src={`${image}`}
@@ -111,7 +95,7 @@ const SliderServices = ({ card, scale, setScale, descricaoEscolhida }) => {
               </SplideSlide>
             ))}
           </Splide>
-          <p className="p-4 sx:text-xl">{description}</p>
+          <p className="p-4 sx:text-xl 2xl:text-3xl">{description}</p>
           <CloseIcon
             onClick={() => setScale("scale-0")}
             sx={{ width: 30, height: 30 }}
