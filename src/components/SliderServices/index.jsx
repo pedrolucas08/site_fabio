@@ -99,7 +99,7 @@ const SliderServices = ({ card, scale, setScale, descricaoEscolhida }) => {
     talude:
       "Garantimos a limpeza e manutenção eficiente de taludes e barragens, removendo a vegetação indesejada para evitar erosão, assoreamento e outros impactos ambientais. Utilizamos equipamentos adequados e técnicas especializadas para proporcionar um serviço seguro e de qualidade, preservando a integridade do solo e das estruturas.",
     reflorestamento:
-      "Realizamos a plantação de novas árvores para recuperar áreas degradadas, melhorar a qualidade do solo e contribuir para a preservação do meio ambiente. Com técnicas adequadas e espécies selecionadas, garantimos um reflorestamento eficiente e sustentável, promovendo o equilíbrio ecológico e a revitalização da paisagem.",
+      "Realizamos o plantio de novas árvores para recuperar áreas degradadas, melhorar a qualidade do solo e contribuir para a preservação do meio ambiente. Com técnicas adequadas e espécies selecionadas, garantimos um reflorestamento eficiente e sustentável, promovendo o equilíbrio ecológico e a revitalização da paisagem.",
     servidao:
       "Executamos a roçagem e manutenção das faixas de servidão sob as linhas de transmissão de 134 kVA, garantindo a segurança e a acessibilidade da área. A remoção da vegetação evita riscos de interferência na rede elétrica e facilita a inspeção e manutenção dos postes e cabos, sempre com técnicas adequadas e respeito ao meio ambiente.",
     construcao:
