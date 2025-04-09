@@ -7,6 +7,7 @@ import talude0 from "../../assets/roçagem-talude-barragem/image0.jpg";
 import reflorestamento0 from "../../assets/reflorestamento/image0.jpg";
 import servidao0 from "../../assets/faixa-servidao/image0.jpg";
 import construcao0 from "../../assets/construcao/image0.jpg";
+import limpezaUrbana0 from "../../assets/limpeza-urbana/image0.jpg";
 
 const Services = () => {
   const [card, setCard] = useState(0);
@@ -159,17 +160,17 @@ const Services = () => {
               </button>
             </div>
           </div>
-          {/* <div className="services4 flex flex-col w-72 h-112 rounded-md shadow-xl">
+          <div className="services4 flex flex-col w-72 h-112 rounded-md shadow-xl 2xl:w-96 2xl:h-148">
             <img
-              src={`${image}`}
+              src={`${limpezaUrbana0}`}
               alt="Service"
-              className="w-full h-48 object-cover rounded-t-md"
+              className="w-full h-48 object-cover rounded-t-md 2xl:h-74"
             />
             <div className="p-4 flex flex-col items-center">
-              <h3 className="text-center text-xl font-semibold mb-2">
+              <h3 className="text-center text-xl font-semibold mb-2 2xl:text-2xl">
                 Limpeza Urbana
               </h3>
-              <p className="text-gray-600 mb-4 text-center">
+              <p className="text-gray-600 mb-4 text-center 2xl:text-xl">
                 Serviço de roçagem e remoção de resíduos em vias públicas e
                 terrenos, mantendo a cidade mais limpa, segura e bem cuidada.
               </p>
@@ -184,7 +185,7 @@ const Services = () => {
                 VER MAIS DETALHES
               </button>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
       <SliderServices

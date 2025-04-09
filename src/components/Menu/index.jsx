@@ -19,9 +19,9 @@ const Menu = () => {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 flex justify-between items-center h-20 bg-black z-100 2xl:h-48">
+    <header className="fixed top-0 left-0 right-0 flex justify-between items-center h-32 bg-black z-100 2xl:h-48">
       <a href="index.html" className="">
-        <div className="absolute translate-[-50%] top-[50%] left-[50%] h-20 w-50 overflow-x-hidden">
+        <div className="absolute translate-[-50%] top-[50%] left-[50%] h-32 w-50 overflow-x-hidden">
           <div className="absolute bg-radial from-transparent to-redf to-99% shadow-logo shadow-redf translate-[-50%] top-[50%] left-[50%] w-32 h-30 rounded-full"></div>
         </div>
         <img
@@ -46,7 +46,7 @@ const Menu = () => {
           />
         )}
         <ul
-          className={`absolute flex flex-col bg-redf items-center ${menuHeight} justify-evenly duration-300 left-0 top-20 right-0 z-20 md:flex-row md:h-20 md:bg-transparent md:top-0 2xl:top-1/2 2xl:-translate-y-1/2`}
+          className={`absolute flex flex-col bg-redf items-center ${menuHeight} justify-evenly duration-300 left-0 top-32 right-0 z-20 md:flex-row md:h-32 md:bg-transparent md:top-0 2xl:top-1/2 2xl:-translate-y-1/2`}
         >
           <a
             href="#home"
@@ -87,7 +87,7 @@ const Menu = () => {
             <li
               className={`cursor-pointer text-[12px] text-white hover:text-black ${display} duration-300 md:inline md:hover:text-redf md:text-base md:ml-20 2xl:text-3xl 2xl:ml-40`}
             >
-              SOBRE MIM
+              SOBRE NÓS
             </li>
           </a>
           <a

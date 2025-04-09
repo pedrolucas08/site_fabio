@@ -33,7 +33,7 @@ const Home = () => {
 
       <div
         id="home"
-        className="relative mt-20 bg-black h-96 smlst:h-124 midsm:h-160 2xl:h-280 2xl:h-360"
+        className="relative mt-32 bg-black h-96 smlst:h-124 midsm:h-160 2xl:h-280 2xl:h-360"
       >
         <Splide
           options={{

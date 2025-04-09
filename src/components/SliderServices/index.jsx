@@ -2,7 +2,18 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
 import CloseIcon from "@mui/icons-material/Close";
 
-import talude0 from "../../assets/roçagem-talude-barragem/image0.jpg";
+import talude1 from "../../assets/roçagem-talude-barragem/image1.jpg";
+import talude2 from "../../assets/roçagem-talude-barragem/image2.jpg";
+import talude3 from "../../assets/roçagem-talude-barragem/image3.jpg";
+import talude4 from "../../assets/roçagem-talude-barragem/image4.jpg";
+import talude5 from "../../assets/roçagem-talude-barragem/image5.jpg";
+import talude6 from "../../assets/roçagem-talude-barragem/image6.jpg";
+import talude7 from "../../assets/roçagem-talude-barragem/image7.jpg";
+import talude8 from "../../assets/roçagem-talude-barragem/image8.jpg";
+import talude9 from "../../assets/roçagem-talude-barragem/image9.jpg";
+import talude10 from "../../assets/roçagem-talude-barragem/image10.jpg";
+import talude11 from "../../assets/roçagem-talude-barragem/image11.jpg";
+import talude12 from "../../assets/roçagem-talude-barragem/image12.jpg";
 import reflorestamento1 from "../../assets/reflorestamento/image1.jpg";
 import reflorestamento2 from "../../assets/reflorestamento/image2.jpg";
 import reflorestamento3 from "../../assets/reflorestamento/image3.jpg";
@@ -21,9 +32,16 @@ import servidao9 from "../../assets/faixa-servidao/image9.jpg";
 import servidao10 from "../../assets/faixa-servidao/image10.jpg";
 import servidao11 from "../../assets/faixa-servidao/image11.jpg";
 import servidao12 from "../../assets/faixa-servidao/image12.jpg";
+import servidao13 from "../../assets/faixa-servidao/image13.jpg";
+import servidao14 from "../../assets/faixa-servidao/image14.jpg";
 import construcao1 from "../../assets/construcao/image1.jpg";
 import construcao2 from "../../assets/construcao/image2.jpg";
 import construcao4 from "../../assets/construcao/image4.jpg";
+import construcao5 from "../../assets/construcao/image5.jpg";
+import construcao6 from "../../assets/construcao/image6.jpg";
+import construcao7 from "../../assets/construcao/image7.jpg";
+import construcao8 from "../../assets/construcao/image8.jpg";
+import limpezaUrbana0 from "../../assets/limpeza-urbana/image0.jpg";
 
 const SliderServices = ({ card, scale, setScale, descricaoEscolhida }) => {
   const images = [
@@ -48,10 +66,33 @@ const SliderServices = ({ card, scale, setScale, descricaoEscolhida }) => {
       servidao10,
       servidao11,
       servidao12,
+      servidao13,
+      servidao14,
     ],
-    [construcao1, construcao2, construcao4],
-    [talude0],
-    // [limpezaUrbana],
+    [
+      construcao1,
+      construcao2,
+      construcao4,
+      construcao5,
+      construcao6,
+      construcao7,
+      construcao8,
+    ],
+    [
+      talude1,
+      talude2,
+      talude3,
+      talude4,
+      talude5,
+      talude6,
+      talude7,
+      talude8,
+      talude9,
+      talude10,
+      talude11,
+      talude12,
+    ],
+    [limpezaUrbana0],
   ];
 
   const descriptions = {
@@ -81,7 +122,7 @@ const SliderServices = ({ card, scale, setScale, descricaoEscolhida }) => {
               perPage: 1,
               autoplay: true,
               arrows: true,
-              pagination: true,
+              pagination: false,
             }}
             aria-label="Fabio images"
           >
